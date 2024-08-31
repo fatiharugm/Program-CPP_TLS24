@@ -3,7 +3,7 @@ Fatih Abdurrahman Rahmat (Norton)
 
 Program ini adalah aplikasi sederhana untuk menghitung **Body Mass Index (BMI)**, yang membantu pengguna mengetahui apakah berat badan mereka termasuk dalam kategori kurus, normal, kelebihan berat badan, atau obesitas berdasarkan tinggi dan berat badan yang dimasukkan.
 
-### Penjelasan Singkat:
+## 👋｜Penjelasan Singkat
 1. **Input Pengguna:** 
    - Pengguna diminta untuk memasukkan tinggi badan dalam meter dan berat badan dalam kilogram.
    
@@ -29,3 +29,34 @@ Program ini adalah aplikasi sederhana untuk menghitung **Body Mass Index (BMI)**
    - Untuk mencegah terminal tertutup secara otomatis, program menunggu pengguna menekan tombol apa saja sebelum keluar. Ini dilakukan dengan kombinasi `std::cin.ignore()` dan `std::cin.get()`.
 
 Program ini membantu pengguna untuk mengetahui status berat badan mereka dan memberikan informasi yang bermanfaat dengan cara yang sederhana dan interaktif.
+
+## 🚧｜Prasyarat
+- Jika Anda menggunakan Windows, pastikan sudah menginstal MinGW atau TDM-GCC untuk mengkompilasi program C++.
+- Di Linux atau macOS, biasanya sudah tersedia compiler g++ secara default.
+
+## 📝｜Cara Penggunaan
+1. Buka Command Prompt (Windows) atau Terminal (Linux/macOS).
+2. Navigasi ke Direktori tempat file sumber (.cpp) berada, misalnya:
+```
+cd path\to\your\directory
+```
+   - Gantilah path\to\your\directory dengan jalur direktori yang sesuai.
+
+3. Jalankan Perintah Kompilasi:
+   - Untuk menghasilkan file BMI_Calculator.exe, gunakan perintah berikut:
+```
+g++ -o BMI_Calculator.exe BMI_Calculator.cpp
+```
+4. Jalankan Program:
+   - Anda bisa menjalankan file BMI_Calculator.exe dengan mengklik dua kali atau dari Command Prompt/Terminal
+5. Cek Hasil:
+   - Masukkan nilai tinggi badan (dalam meter) dan berat badan (dalam kilogram) ketika diminta.
+   - Program akan menampilkan BMI dan kategori sesuai dengan hasil perhitungan.
+
+  Contoh Hasil:
+```
+Masukkan tinggi badan Anda (dalam meter): 1.75
+Masukkan berat badan Anda (dalam kilogram): 68
+BMI Anda adalah: 22.2041
+Anda memiliki berat badan normal.
+```
